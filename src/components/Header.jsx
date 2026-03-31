@@ -1,0 +1,42 @@
+export default function Header(){
+    return(
+        <>
+        <div class="wrapper">
+      <div class="right">
+        <div class="logo">Iphone 12</div>
+
+        <div class="stars" aria-label="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+
+        <div class="about">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
+            esse omnis ipsa perspiciatis.
+          </p>
+        </div>
+
+        <button type="button">
+          <h1>Buy Now</h1>
+          <h1>$1225</h1>
+        </button>
+      </div>
+
+      <div class="left">
+        <ul>
+          <li>Chipset Apple A14 Bionic (5 nm)</li>
+          <li>CPU Hexa-core</li>
+          <li>GPU Apple GPU (4-core graphics)</li>
+          <li>Dual 12 MP, f/2.2, 23mm (wide), 1/3.6"</li>
+          <li>Loudspeaker Yes, with stereo speakers</li>
+          <li>USB Lightning, USB 2.0</li>
+        </ul>
+      </div>
+    </div>
+        </>
+    );
+}
